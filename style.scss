@@ -17,7 +17,7 @@ body{
 }
 
 .main{
-    width:1920px;
+    width:100%;
     height:100%;
 
     padding:50px 0;
@@ -30,7 +30,7 @@ body{
 .main__name{
     background-image: url("./Img/Group.svg");
     background-repeat: no-repeat;
-    background-position: 1120px;
+    background-position: right;
     color: #212529;
     text-align: center;
     font-family: $one;
@@ -40,16 +40,16 @@ body{
     line-height: 84px; /* 120% */
 }
 .main__block{
-    width:1500px;
-    height:500px;
+    width:87.5%;
+    height:450px;
     background: white;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap:25px;
 }
 .main__block-container{
-    background: rgb(77, 74, 74);
-    width:500px;
+    width:450px;
     height:100%;
     display: flex;
     flex-direction: column;
@@ -57,10 +57,11 @@ body{
     justify-content: space-around;
     border-radius: 10px;
     background: #4F9CF9;
+    padding:15px 0;
     
 }
 .main__block-container:nth-child(1){
-    width:500px;
+    width:450px;
     height:100%;
     display: flex;
     flex-direction: column;
